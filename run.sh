@@ -12,7 +12,7 @@ configure() {
 }
 
 run() {
-    ./mvnw -P clean package cargo:run
+    ./mvnw clean package cargo:run
 }
 
 

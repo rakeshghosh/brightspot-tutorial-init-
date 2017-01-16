@@ -20,5 +20,5 @@ EXIT /B 0
 
 :start
 ECHO "Starting Application..."
-CALL mvnw.cmd -P clean package cargo:run
+CALL mvnw.cmd clean package cargo:run
 EXIT /B 0
