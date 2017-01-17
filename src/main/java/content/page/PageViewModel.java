@@ -1,7 +1,5 @@
 package content.page;
 
-import java.util.logging.Logger;
-
 import com.psddev.cms.view.ViewModel;
 import styleguide.content.page.PageFooterView;
 import styleguide.content.page.PageHeaderView;
@@ -24,8 +22,6 @@ public class PageViewModel extends ViewModel<Page> implements PageView {
 
     @Override
     public PageViewMainField getMain() {
-        Logger.getAnonymousLogger().info("VIEW: " + model);
-        Logger.getAnonymousLogger().info("VIEW: " + createView(PageViewMainField.class, model));
         return createView(PageViewMainField.class, model);
     }
 
