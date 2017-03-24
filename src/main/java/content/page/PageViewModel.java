@@ -8,6 +8,8 @@ import styleguide.content.page.PageViewFooterField;
 import styleguide.content.page.PageViewHeaderField;
 import styleguide.content.page.PageViewMainField;
 
+import java.util.Collections;
+
 public class PageViewModel extends ViewModel<Page> implements PageView {
 
     @Override
@@ -16,17 +18,17 @@ public class PageViewModel extends ViewModel<Page> implements PageView {
     }
 
     @Override
-    public PageViewHeaderField getHeader() {
-        return new PageHeaderView.Builder().build();
+    public Iterable<? extends PageViewHeaderField> getHeader() {
+        return Collections.singletonList(new PageHeaderView.Builder().build());
     }
 
     @Override
-    public PageViewMainField getMain() {
-        return createView(PageViewMainField.class, model);
+    public Iterable<? extends PageViewMainField> getMain() {
+        return Collections.singletonList(createView(PageViewMainField.class, model));
     }
 
     @Override
-    public PageViewFooterField getFooter() {
-        return new PageFooterView.Builder().build();
+    public Iterable<? extends PageViewFooterField> getFooter() {
+        return Collections.singletonList(new PageFooterView.Builder().build());
     }
 }
