@@ -4,12 +4,10 @@ import com.psddev.cms.db.Content;
 import com.psddev.cms.db.Directory;
 import com.psddev.cms.db.Site;
 import com.psddev.cms.db.ToolUi;
-import com.psddev.cms.view.ViewBinding;
 import com.psddev.dari.db.Recordable;
 import com.psddev.dari.util.StringUtils;
 import content.page.Page;
 
-@ViewBinding(ArticleViewModel.class)
 public class Article extends Content implements Directory.Item, Page {
 
     @Recordable.Required
