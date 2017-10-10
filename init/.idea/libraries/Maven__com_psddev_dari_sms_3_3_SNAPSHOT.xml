@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.psddev:dari-sms:3.3-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/psddev/dari-sms/3.3-SNAPSHOT/dari-sms-3.3-20171006.210922-67.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/psddev/dari-sms/3.3-SNAPSHOT/dari-sms-3.3-20171006.210922-67-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/psddev/dari-sms/3.3-SNAPSHOT/dari-sms-3.3-20171006.210922-67-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

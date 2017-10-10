@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.psddev:dari-reflections:3.3-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/psddev/dari-reflections/3.3-SNAPSHOT/dari-reflections-3.3-20171006.210811-65.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/psddev/dari-reflections/3.3-SNAPSHOT/dari-reflections-3.3-20171006.210811-65-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/psddev/dari-reflections/3.3-SNAPSHOT/dari-reflections-3.3-20171006.210811-65-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

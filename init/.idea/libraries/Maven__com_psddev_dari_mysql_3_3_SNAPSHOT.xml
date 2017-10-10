@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.psddev:dari-mysql:3.3-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/psddev/dari-mysql/3.3-SNAPSHOT/dari-mysql-3.3-20171006.211004-58.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/psddev/dari-mysql/3.3-SNAPSHOT/dari-mysql-3.3-20171006.211004-58-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/psddev/dari-mysql/3.3-SNAPSHOT/dari-mysql-3.3-20171006.211004-58-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

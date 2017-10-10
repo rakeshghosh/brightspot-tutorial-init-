@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.psddev:dari-mail:3.3-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/psddev/dari-mail/3.3-SNAPSHOT/dari-mail-3.3-20171006.210917-67.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/psddev/dari-mail/3.3-SNAPSHOT/dari-mail-3.3-20171006.210917-67-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/psddev/dari-mail/3.3-SNAPSHOT/dari-mail-3.3-20171006.210917-67-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

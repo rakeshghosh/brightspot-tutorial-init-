@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.psddev:cms-hunspell:3.3-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/psddev/cms-hunspell/3.3-SNAPSHOT/cms-hunspell-3.3-20171010.155319-174.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/psddev/cms-hunspell/3.3-SNAPSHOT/cms-hunspell-3.3-20171010.155319-174-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/psddev/cms-hunspell/3.3-SNAPSHOT/cms-hunspell-3.3-20171010.155319-174-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

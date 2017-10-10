@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.psddev:cms-tool-ui:war:3.3-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/psddev/cms-tool-ui/3.3-SNAPSHOT/cms-tool-ui-3.3-20171010.155801-168.war!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/psddev/cms-tool-ui/3.3-SNAPSHOT/cms-tool-ui-3.3-20171010.155801-168-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/psddev/cms-tool-ui/3.3-SNAPSHOT/cms-tool-ui-3.3-20171010.155801-168-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

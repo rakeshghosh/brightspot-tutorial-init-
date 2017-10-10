@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.psddev:cms-db:3.3-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/psddev/cms-db/3.3-SNAPSHOT/cms-db-3.3-20171010.155304-177.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/psddev/cms-db/3.3-SNAPSHOT/cms-db-3.3-20171010.155304-177-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/psddev/cms-db/3.3-SNAPSHOT/cms-db-3.3-20171010.155304-177-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
