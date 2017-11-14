@@ -18,4 +18,6 @@
     <Environment name="dari/storage/tutorial.local/class" type="java.lang.String" value="com.psddev.dari.util.LocalStorageItem" />
     <Environment name="dari/storage/tutorial.local/baseUrl" type="java.lang.String" value="http://localhost:9480/storage" />
     <Environment name="dari/storage/tutorial.local/rootPath" type="java.lang.String" value="<project-dir>.storage" />
+    <!-- Root -->
+	<Environment name="dari/routingFilter/applicationPath/cms" value="admin" type="java.lang.String" />
 </Context>

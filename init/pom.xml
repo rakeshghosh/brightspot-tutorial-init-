@@ -133,20 +133,50 @@
 
     <build>
         <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-war-plugin</artifactId>
-                <configuration>
-                    <overlays>
-                        <overlay>
-                            <groupId>com.psddev</groupId>
-                            <artifactId>cms-tool-ui</artifactId>
-                            <targetPath>cms</targetPath>
-                        </overlay>
-                    </overlays>
-                </configuration>
-            </plugin>
 
+
+ <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.1</version>
+            <configuration>
+                <source>1.8</source>
+                <target>1.8</target>
+                <debug>true</debug>
+                <showDeprecation>true</showDeprecation>
+            </configuration>
+        </plugin>
+
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>2.1.1</version>
+            <configuration>
+                <overlays>
+                    <overlay>
+                        <groupId>com.psddev</groupId>
+                        <artifactId>cms-tool-ui</artifactId>
+                        <targetPath>admin</targetPath>
+                    </overlay>
+                    <overlay>
+                        <groupId>com.psddev</groupId>
+                        <artifactId>dari-reloader-tomcat6</artifactId>
+                        <skip>true</skip>
+                    </overlay>
+                    <overlay>
+                        <groupId>org.apache.solr</groupId>
+                        <artifactId>solr</artifactId>
+                        <skip>true</skip>
+                    </overlay>
+                </overlays>
+            </configuration>
+        </plugin>
+
+
+
+
+
+           
             <plugin>
                 <groupId>org.codehaus.cargo</groupId>
                 <artifactId>cargo-maven2-plugin</artifactId>
