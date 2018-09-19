@@ -8,6 +8,8 @@ import com.psddev.dari.util.StringUtils;
 import com.psddev.cms.db.Directory;
 import com.psddev.cms.db.Site;
 
+import java.util.List;
+
 public class Article extends Content implements
         Directory.Item {
 
@@ -18,6 +20,8 @@ public class Article extends Content implements
 
     @ToolUi.RichText
     private String body;
+
+    private List<String> list;
 
     public String getHeadline() {
         return headline;
